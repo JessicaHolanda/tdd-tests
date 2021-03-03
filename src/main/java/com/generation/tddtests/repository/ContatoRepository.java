@@ -1,11 +1,9 @@
 package com.generation.tddtests.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-import com.generation.tddtests.model.ContatoModel; 
+import com.generation.tddtests.model.ContatoModel;
 
-@Repository
-public interface ContatoRepository extends JpaRepository<ContatoModel, Long> { 
-	
+public interface ContatoRepository extends JpaRepository<ContatoModel, Long> {
+
 }
